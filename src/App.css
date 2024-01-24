@@ -1,0 +1,30 @@
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+.app {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
